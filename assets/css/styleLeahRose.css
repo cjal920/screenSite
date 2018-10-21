@@ -1,0 +1,73 @@
+body    {
+    color: #7e7e7e;
+    background-color: #000;
+    font-weight: 100;
+}
+
+/* .container  {
+    position: relative;
+} */
+
+/* img {
+    z-index: -1;
+    background-color: #fff;
+} */
+
+.lr-bg   {
+    /* position: relative; */
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    z-index: 1;
+}
+
+
+
+
+
+#leah-rose-img  {
+    /* position: relative; */
+    /* background-color: #fff; */
+    /* opacity: 0; */
+}
+
+.leah-rose-title  {
+    position: absolute;
+    text-align: center;
+    top: 90%;
+    left: 50%;
+    transform: translate(-100%, -100%);
+    color: #927e3d;
+    font-size: 30px;
+}
+
+.leah-rose-txt  {
+    position: absolute;
+    width: 50%;
+    left: 15%;
+    transform: translate(-10%, -200%);
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    opacity: 0;
+    /* visibility: hidden; */
+}
+
+
+
+
+
+
+.fishtown-title  {
+    position: absolute;
+    text-align: center;
+    top: 80%;
+    left: 50%;
+    transform: translate(-100%, -100%);
+    color: #927e3d;
+    font-size: 30px;
+}
+
+/* .poster-image:hover   {
+
+} */
