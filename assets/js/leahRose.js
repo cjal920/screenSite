@@ -1,5 +1,12 @@
 $(document).ready(function()    {
 
+//   window.onload = function() {
+//     document.getElementById("leah-rach").play();
+// }
+
+// $("#leah-rach").get(0).play();
+
+
 // var leahRose = document.getElementById("leah-rach")    
 // var playLeahRose = function(e)  {
 //     leahRose.hover();
