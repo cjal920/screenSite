@@ -66,94 +66,80 @@ h3  {
     font-size: 30px;
 } */
 
-#lr-syn1
-{
+#lr-syn1   {
     position: absolute;
     width: 90%;
     top: 4%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: 'Cormorant Upright', serif; 
-    font-size: 50px;
-}
-
-
-
-
-#lr-syn2
-{
-    position: absolute;
-    width: 90%;
-    top: 8%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     font-family: 'Cormorant Upright', serif;  
-    font-size: 50px;
-
+    font-size: 25px;
 }
 
-#lr-syn3
-{
+#lr-syn2   {
     position: absolute;
     width: 90%;
-    top: 15%;
+    top: 6%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Cormorant Upright', serif;  
     font-size: 25px;
-  
 }
 
-#lr-syn4
-{
+#lr-syn3   {
     position: absolute;
     width: 90%;
-    top: 21%;
+    top: 12%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Cormorant Upright', serif;  
     font-size: 25px;
- 
 }
 
-#lr-syn5
-{
+#lr-syn4   {
     position: absolute;
     width: 90%;
-    top: 32%;
+    top: 18%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Cormorant Upright', serif;  
     font-size: 25px;
- 
 }
 
-#lr-syn6
-{
+#lr-syn5   {
     position: absolute;
     width: 90%;
-    top: 45%;
+    top: 27%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Cormorant Upright', serif;  
     font-size: 25px;
-  
 }
 
-#lr-syn7 {
+#lr-syn6   {
+    position: absolute;
+    width: 90%;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Cormorant Upright', serif;  
+    font-size: 25px;
+}
+
+#lr-syn7   {
+    position: absolute;
+    width: 90%;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Cormorant Upright', serif;  
+    font-size: 25px;
+}
+
+#lr-syn8   {
     position: absolute;
     width: 90%;
     top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: 'Cormorant Upright', serif;  
-    font-size: 25px;
-}
-
-#lr-syn8 {
-    position: absolute;
-    width: 90%;
-    top: 78%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Cormorant Upright', serif;  

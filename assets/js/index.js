@@ -44,12 +44,12 @@ in all the delights the good life has to offer with husband Alfred and their cir
 `, `But what Leah and no one else around her knows is that these glorious golden days
 are numbered. She doesn't know that just a few miles south of her
 exclusive uptown address, a storm is brewing down on Wall Street. 
-A storm born of a decade of reckless speculation that will strike at the very heart of the global
+A storm born of years of reckless speculation that will strike at the very heart of the global
 economy in the final days of October. And when it strikes, it leaves Leah's cherished world 
 of privilege and security utterly destroyed.
 `, `In the desperate months that follow, while Alfred leaves town to try his hand at bootlegging,
 Leah grudgingly goes to stay with a trusted but strapped actor friend from 
-his youth in a squalid house he shares with other starving artists, intellectuals 
+Alfred's youth in a squalid house he shares with other starving artists, intellectuals 
 and people on the fringes.`, `Living among these Greenwich Village bohemians for whom she has little affection, 
 Leah will face hard realities
 her pampered existence has left her ill-equipped to meet - an unplanned pregnancy; a landlord who 
@@ -65,12 +65,12 @@ face whatever the dark days ahead may bring.`];
 // variables holding values for timing of synopsis reveal
 const synopsisFirst = setInterval(fadeOne, 1000);
 const synopsisSecond = setInterval(fadeTwo, 2500);
-const synopsisThird = setInterval(fadeThree, 5000);
-const synopsisFourth= setInterval(fadeFour, 7500);
-const synopsisFifth = setInterval(fadeFive, 10000);
-const synopsisSixth = setInterval(fadeSix, 12500);
-const synopsisSeventh = setInterval(fadeSeven, 15000);
-const synopsisEighth = setInterval(fadeEight, 17500);
+const synopsisThird = setInterval(fadeThree, 4500);
+const synopsisFourth= setInterval(fadeFour, 9000);
+const synopsisFifth = setInterval(fadeFive, 17500);
+const synopsisSixth = setInterval(fadeSix, 22500);
+const synopsisSeventh = setInterval(fadeSeven, 27500);
+const synopsisEighth = setInterval(fadeEight, 32500);
 
 // function to display each part of synopsis
 function fadeOne()  {
