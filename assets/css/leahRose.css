@@ -152,7 +152,35 @@ h3  {
     height: 1400px;
 }
 
+#leah-rose-tag  {
+    text-align: center;
+    padding-top: 500px;
+    font-family: 'Cinzel', serif;
+    /* font-family: 'Diplomata', cursive; */
+    /* font-family: 'Great Vibes', cursive; */
+    /* font-family: 'Josefin Slab', serif;
+    font-family: 'Notable', sans-serif;
+    font-family: 'Averia Libre', cursive;
+    font-family: 'IM Fell DW Pica SC', serif; */
+    /* font-family: 'Cormorant Upright', serif;
+    font-family: 'IM Fell DW Pica', serif;  */
+    font-size: 28px;
+}
 
+
+#leah-rose-title-two    {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    /* font-family: 'Diplomata', cursive; */
+    /* font-family: 'Great Vibes', cursive; */
+    /* font-family: 'Josefin Slab', serif; */
+    /* font-family: 'Notable', sans-serif; */
+    /* font-family: 'Averia Libre', cursive; */
+    /* font-family: 'IM Fell DW Pica SC', serif; */
+    /* font-family: 'Cormorant Upright', serif;
+    font-family: 'IM Fell DW Pica', serif;  */
+    font-size: 200px;
+}
 
 
 

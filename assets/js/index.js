@@ -105,9 +105,20 @@ function fadeEight()  {
   $("#lr-syn8").html(synopsisLeahRose[7]);
 };
 
+const titles = [`When the world around her lost its way, she made her own.`,
+                `Leah Rose`];
 
+const titleOne = setInterval(fadeNine, 20000);
+const titleTwo = setInterval(fadeTen, 23000);
 
-
+function fadeNine()  {
+  $("#leah-rose-tag").html(titles[0]);
+  };
+                
+function fadeTen()  {
+  $("#leah-rose-title-two").html(titles[1]);
+  };
+                
 
   // $("#lr-syn1").fadeIn();
   // $("#lr-syn2").fadeIn();
