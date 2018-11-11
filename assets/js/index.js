@@ -64,13 +64,13 @@ face whatever the dark days ahead may bring.`];
 
 // variables holding values for timing of synopsis reveal
 const synopsisFirst = setInterval(fadeOne, 1000);
-const synopsisSecond = setInterval(fadeTwo, 2500);
-const synopsisThird = setInterval(fadeThree, 4500);
-const synopsisFourth= setInterval(fadeFour, 9000);
-const synopsisFifth = setInterval(fadeFive, 17500);
-const synopsisSixth = setInterval(fadeSix, 22500);
-const synopsisSeventh = setInterval(fadeSeven, 27500);
-const synopsisEighth = setInterval(fadeEight, 32500);
+const synopsisSecond = setInterval(fadeTwo, 2000);
+const synopsisThird = setInterval(fadeThree, 3000);
+const synopsisFourth= setInterval(fadeFour, 4000);
+const synopsisFifth = setInterval(fadeFive, 5000);
+const synopsisSixth = setInterval(fadeSix, 6000);
+const synopsisSeventh = setInterval(fadeSeven, 7000);
+const synopsisEighth = setInterval(fadeEight, 8000);
 
 // function to display each part of synopsis
 
@@ -113,8 +113,8 @@ function fadeEight()  {
 const titles = [`When the world around her lost its way, she made her own.`,
                 `Leah Rose`];
 
-const titleOne = setInterval(fadeNine, 20000);
-const titleTwo = setInterval(fadeTen, 23000);
+const titleOne = setInterval(fadeNine, 2000);
+const titleTwo = setInterval(fadeTen, 2300);
 
 function fadeNine()  {
   $("#leah-rose-tag").html(titles[0]);
