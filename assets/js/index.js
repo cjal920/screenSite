@@ -73,6 +73,11 @@ const synopsisSeventh = setInterval(fadeSeven, 27500);
 const synopsisEighth = setInterval(fadeEight, 32500);
 
 // function to display each part of synopsis
+
+// function fadeOne()  {
+//   $("#lr-syn").html(synopsisLeahRose[0]);
+// };
+
 function fadeOne()  {
   $("#lr-syn1").html(synopsisLeahRose[0]);
 };
@@ -116,7 +121,7 @@ function fadeNine()  {
   };
                 
 function fadeTen()  {
-  $("#leah-rose-title-two").html(titles[1]);
+  $(".leah-rose-title-two").html(titles[1]);
   };
                 
 
