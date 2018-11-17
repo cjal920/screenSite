@@ -37,6 +37,9 @@ $(".leah-rose-img-txt-hover").mouseover(function() {
     $(".leah-rose-txt").css({opacity: "1"});
   });
 
+
+/* LEAH ROSE PAGE */
+
 // array that holds Leah Rose synopsis
 const synopsisLeahRose = [`NEW YORK CITY.`, `SUMMER 1929.`, `She has it all. Youth. Beauty. A handsome and successful lawyer husband. A lavish Upper East Side penthouse. 
 And enough money for a lifetime.`, `And during the last summer of the 1920s, popular socialite Leah Rose indulges
@@ -63,6 +66,7 @@ of purpose far greater than anything she's ever known, with the strength and wis
 face whatever the dark days ahead may bring.`];
 
 // variables holding values for timing of synopsis reveal
+
 const synopsisFirst = setInterval(fadeOne, 1000);
 const synopsisSecond = setInterval(fadeTwo, 2000);
 const synopsisThird = setInterval(fadeThree, 3000);
