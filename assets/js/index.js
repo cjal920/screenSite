@@ -127,6 +127,14 @@ function fadeNine()  {
 function fadeTen()  {
   $(".leah-rose-title-two").html(titles[1]);
   };
+
+
+  $("#low-man-img").fadeOut(10000);
+  $(".lr-syn").fadeOut(15000);
+  $("#low-man-img2").fadeOut(5000);
+  $("#lr-full").fadeOut(5000);
+  $(".lr-title1").fadeOut(5000);
+
                 
 
   // $("#lr-syn1").fadeIn();
