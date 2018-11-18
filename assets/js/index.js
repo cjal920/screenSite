@@ -41,16 +41,16 @@ $(".leah-rose-img-txt-hover").mouseover(function() {
 /* LEAH ROSE PAGE */
 
 // array that holds Leah Rose synopsis
-const synopsisLeahRose = [`NEW YORK CITY.`, `SUMMER 1929.`, `She has it all. Youth. Beauty. A handsome and successful lawyer husband. A lavish Upper East Side penthouse. 
+const synopsisLeahRose = [`NEW YORK CITY.`, `SUMMER 1929.`, `She has it all. Youth. Beauty. A great man. A beautiful home. 
 And enough money for a lifetime.`, `And during the last summer of the 1920s, popular socialite Leah Rose indulges
 in all the delights the good life has to offer with husband Alfred and their circle of fabulous friends.
 `, `But what Leah and no one else around her knows is that these glorious golden days
 are numbered. She doesn't know that just a few miles south of her
-exclusive uptown address, a storm is brewing down on Wall Street. 
+exclusive Upper East Side address, a storm is brewing down on Wall Street. 
 A storm born of years of reckless speculation that will strike at the very heart of the global
-economy in the final days of October. And when it strikes, it leaves Leah's cherished world 
+economy in the final days of October. And when it strikes, it leaves Leah's world 
 of privilege and security utterly destroyed.
-`, `In the desperate months that follow, while Alfred leaves town to try his hand at bootlegging,
+`, `In the desperate months that follow, while Alfred leaves town to try his hand at bootlegging in a bid to restore some measure of that cherished world,
 Leah grudgingly goes to stay with a trusted but strapped actor friend from 
 Alfred's youth in a squalid house he shares with other starving artists, intellectuals 
 and people on the fringes.`, `Living among these Greenwich Village bohemians for whom she has little affection, 
@@ -67,52 +67,60 @@ face whatever the dark days ahead may bring.`];
 
 // variables holding values for timing of synopsis reveal
 
-const synopsisFirst = setInterval(fadeOne, 1000);
-const synopsisSecond = setInterval(fadeTwo, 2000);
-const synopsisThird = setInterval(fadeThree, 3000);
-const synopsisFourth= setInterval(fadeFour, 4000);
-const synopsisFifth = setInterval(fadeFive, 5000);
-const synopsisSixth = setInterval(fadeSix, 6000);
-const synopsisSeventh = setInterval(fadeSeven, 7000);
-const synopsisEighth = setInterval(fadeEight, 8000);
+// const synopsisFirst = setTimeout(fadeOne, 1000);
+// const synopsisSecond = setInterval(fadeTwo, 2000);
+// const synopsisThird = setInterval(fadeThree, 3000);
+// const synopsisFourth= setInterval(fadeFour, 4000);
+// const synopsisFifth = setInterval(fadeFive, 5000);
+// const synopsisSixth = setInterval(fadeSix, 6000);
+// const synopsisSeventh = setInterval(fadeSeven, 7000);
+// const synopsisEighth = setInterval(fadeEight, 8000);
 
 // function to display each part of synopsis
 
-// function fadeOne()  {
-//   $("#lr-syn").html(synopsisLeahRose[0]);
-// };
+
 
 function fadeOne()  {
-  $("#lr-syn1").html(synopsisLeahRose[0]);
+  $("#lr-syn1").html(synopsisLeahRose[0]).delay(1000).fadeIn(500).delay(99000).fadeOut(500);
+  fadeTwo();
 };
 
 function fadeTwo()  {
-  $("#lr-syn2").html(synopsisLeahRose[1]);
+  $("#lr-syn2").html(synopsisLeahRose[1]).delay(3000).fadeIn(700).delay(97000).fadeOut(500);
+  fadeThree();
 };
 
 function fadeThree()  {
-  $("#lr-syn3").html(synopsisLeahRose[2]);
+  $("#lr-syn3").html(synopsisLeahRose[2]).delay(7000).fadeIn(700).delay(93000).fadeOut(500);
+  fadeFour();
 };
 
 function fadeFour()  {
-  $("#lr-syn4").html(synopsisLeahRose[3]);
+  $("#lr-syn4").html(synopsisLeahRose[3]).delay(12000).fadeIn(700).delay(88000).fadeOut(500);
+  fadeFive();
 };
 
 function fadeFive()  {
-  $("#lr-syn5").html(synopsisLeahRose[4]);
+  $("#lr-syn5").html(synopsisLeahRose[4]).delay(22000).fadeIn(700).delay(78000).fadeOut(500);
+  fadeSix();
 };
 
 function fadeSix()  {
-  $("#lr-syn6").html(synopsisLeahRose[5]);
+  $("#lr-syn6").html(synopsisLeahRose[5]).delay(40000).fadeIn(700).delay(60000).fadeOut(500);
+  fadeSeven();
 };
 
 function fadeSeven()  {
-  $("#lr-syn7").html(synopsisLeahRose[6]);
+  $("#lr-syn7").html(synopsisLeahRose[6]).delay(55000).fadeIn(700).delay(45000).fadeOut(500);
+  fadeEight();
 };
 
 function fadeEight()  {
-  $("#lr-syn8").html(synopsisLeahRose[7]);
+  $("#lr-syn8").html(synopsisLeahRose[7]).delay(75000).fadeIn(700).delay(25000).fadeOut(500);
 };
+
+fadeOne();
+
 
 const titles = [`When the world around her lost its way, she made her own.`,
                 `Leah Rose`];
@@ -129,8 +137,7 @@ function fadeTen()  {
   };
 
 
-  $("#low-man-img").fadeOut(10000);
-  $(".lr-syn").fadeOut(15000);
+  $("#low-man-img").delay(103000).fadeOut(1000);
   $("#low-man-img2").fadeOut(5000);
   $("#lr-full").fadeOut(5000);
   $(".lr-title1").fadeOut(5000);
@@ -151,6 +158,16 @@ const aboutMe = `A writer of stage and screen who tells`
 
 
 
+
+
+function synopsisLR() {
+  $("#lr.syn1").html("NEW YORK CITY");
+  $("#lr.syn1").fadeIn(500);
+  $("#lr.syn1").delay(2000);
+  $("#lr.syn1").fadeOut(500);  
+}
+
+synopsisLR();
 
 
 });
