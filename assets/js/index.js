@@ -1,7 +1,7 @@
 $(document).ready(function()    {
 
 //plays the Leah Rose theme//
-var playLeahRose = $("#leah-rach")[0];
+var playLeahRose = $("#leah-bugsy")[0];
 $("#leah-rose-play-btn").on("click", function()   {
     // watchLeahRose();
     playLeahRose.play();
