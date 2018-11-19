@@ -1,16 +1,8 @@
 body    {
     color: #a39555;
-    background-color: #000;
-    /* font-family: 'Cinzel', serif;
-    font-family: 'Diplomata', cursive;
-    font-family: 'Great Vibes', cursive;
-    font-family: 'Josefin Slab', serif;
-    font-family: 'Notable', sans-serif;
-    font-family: 'Averia Libre', cursive;
-    font-family: 'IM Fell DW Pica SC', serif;
-    font-family: 'Cormorant Upright', serif;
-    font-family: 'IM Fell DW Pica', serif; */
-}
+    background-color: #000;}
+
+/* MAIN PAGE */    
 
 .leah-rose-container    {
     position: relative;
@@ -34,84 +26,29 @@ body    {
 }
 
 
-.synopsis-container   {
-    position: relative;
-    /* text-align: center; */
-}
-
+/* LEAH ROSE PAGE */
 #low-man-img    {
     position: relative;
-    opacity: 0.25;
+    opacity: 0.5;
     width: 100%;
 }
 
-h3  {
-    position: absolute;
-    /* text-align: center; */
-    width: 90%;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: 'IM Fell DW Pica', serif;  
-    font-size: 30px;
-}
-
-/* h4  {
-    position: absolute;
-    width: 80%;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: 'Cinzel', serif;
-    font-size: 30px;
-} */
-
-/* .container  {
-    padding-bottom: 100px;
-} */
-
-/* .lr-syn {
-    position: absolute;
-    width: 90%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: 'Cormorant Upright', serif;  
-    font-size: 25px;
-} */
-
 .lr-syn   {
     position: absolute;
-    width: 95%;
-    /* margin-top: -90%; */
+    width: 90%;
     margin-top: 20px;
     margin-left: 2.5%;
-    /* padding-bottom: 200px; */
-    /* margin-top: -100px; */
-    /* transform: translate(-50%, -50%); */
     font-family: 'Cormorant Upright', serif;  
     font-size: 32px;
 }
 
 #lr-syn1   {
-    /* position: absolute; */
-    /* width: 90%; */
-    /* top: 4%; */
-    /* left: 50%; */
-    /* margin-bottom: 1px; */
-    /* transform: translate(-50%, -50%);
-    font-family: 'Cormorant Upright', serif;  */
     font-size: 100px; 
     display: none;
 }
 
 #lr-syn2   {
-    /* position: absolute;
-    width: 90%; */
-    /* top: 6%; */
-    /* left: 50%; */
     margin-bottom: 4%;
-    /* transform: translate(-50%, -50%);
-    font-family: 'Cormorant Upright', serif;  */
     font-size: 100px; 
     display: none;
 }
@@ -123,52 +60,30 @@ h3  {
 #lr-syn7,
 #lr-syn8
 {
-    /* margin-bottom: 4%; */
     display: none;
 }
 
 
-.lr-poster-container    {
-    width: 100%;
-    height: 1400px;
-    padding-top: 1500px;
-    padding-bottom: 700px;
-    text-align: center;
-}
-
 #leah-rose-tag  {
+    position: absolute;
     text-align: center;
-    /* padding-top: 500px; */
-    margin-bottom: 40px;
+    width: 100%;
+    padding-top: 200px;
+    padding-bottom: 50px;
     font-family: 'Cinzel', serif;
-    /* font-family: 'Diplomata', cursive; */
-    /* font-family: 'Great Vibes', cursive; */
-    /* font-family: 'Josefin Slab', serif;
-    font-family: 'Notable', sans-serif;
-    font-family: 'Averia Libre', cursive;
-    font-family: 'IM Fell DW Pica SC', serif; */
-    /* font-family: 'Cormorant Upright', serif;
-    font-family: 'IM Fell DW Pica', serif;  */
     font-size: 28px;
+    display: none;
 }
-
 
 .leah-rose-title-two    {
-    
-        /* position: absolute; */
+        position: absolute;
         text-align: center;
         width: 100%;
-        /* top: 50%;
-        left: 50%; */
-        /* transform: translate(-50%, -50%); */
+        padding-top: 250px;
         font-family: 'Cinzel', serif;
         font-size: 120px;
-
+        display: none;
 }
-
-/* footer  {
-    padding-top: 200px;
-} */
 
 @media only screen and (max-width: 1200px) {
     #lr-syn,
@@ -176,13 +91,8 @@ h3  {
     #lr-syn2
     {
         font-size: 50px;
-        /* text-align: center; */
-        /* margin-top: 20px; */
-        /* margin: 0.5%; */
-        /* margin-bottom: 100px; */
     }
 
-    @media only screen and (max-width: 1200px) {
         #lr-syn3,
         #lr-syn4,
         #lr-syn5,
@@ -191,12 +101,11 @@ h3  {
         #lr-syn8
         {
             font-size: 27px;
-            /* text-align: center; */
-            /* margin: 2.5%; */
-            /* margin-bottom: 100px; */
         }
 
-
+        .leah-rose-title-two    {
+            padding-top: 300px;
+    }
 
 @media only screen and (max-width: 1000px) {
     #lr-syn,
@@ -205,12 +114,9 @@ h3  {
     {
         font-size: 30px;
         text-align: center;
-        /* margin-top: 20px; */
-        /* margin: 0.5%; */
-        /* margin-bottom: 100px; */
+
     }
 
-    @media only screen and (max-width: 1000px) {
         #lr-syn3,
         #lr-syn4,
         #lr-syn5,
@@ -221,7 +127,6 @@ h3  {
             font-size: 20px;
             text-align: center;
             margin: 2.5%;
-            /* margin-bottom: 100px; */
         }
 
         @media only screen and (max-width: 768px) {
@@ -231,13 +136,8 @@ h3  {
             {
                 font-size: 20px;
                 text-align: center;
-                /* margin-top: 20px; */
-                /* margin: 0.5%; */
-                /* margin-bottom: 100px; */
             }
-        }
-        
-        @media only screen and (max-width: 768px) {
+
             #lr-syn3,
             #lr-syn4,
             #lr-syn5,
@@ -248,7 +148,6 @@ h3  {
                 font-size: 14px;
                 text-align: center;
                 margin: 2.5%;
-                /* margin-bottom: 100px; */
             }
         }
 
@@ -259,12 +158,8 @@ h3  {
     {
         font-size: 14px;
         text-align: center;
-        /* margin-top: 1px; */
-        /* margin: 0.5%; */
-        /* margin-bottom: 100px; */
     }
 
-    @media only screen and (max-width: 500px) {
         #lr-syn3,
         #lr-syn4,
         #lr-syn5,
@@ -275,15 +170,14 @@ h3  {
             font-size: 11px;
             text-align: center;
             margin: 2%;
-            /* margin-bottom: 100px; */
         }
-  
-    /* max-width: 640px; */
+
+        .leah-rose-title-two    {
+            padding-top: 350px;
+    }
 }
 
-/* @mixin for-phone-only  {
-    @media (max-width: 340px)
-} */
+
 
 
 
