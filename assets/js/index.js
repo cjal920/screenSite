@@ -81,42 +81,42 @@ face whatever the dark days ahead may bring.`];
 
 
 function fadeOne()  {
-  $("#lr-syn1").html(synopsisLeahRose[0]).delay(1000).fadeIn(500).delay(99000).fadeOut(500);
+  $("#lr-syn1").html(synopsisLeahRose[0]).delay(1000).fadeIn(500).delay(6000).fadeOut(500);
   fadeTwo();
 };
 
 function fadeTwo()  {
-  $("#lr-syn2").html(synopsisLeahRose[1]).delay(3000).fadeIn(700).delay(97000).fadeOut(500);
+  $("#lr-syn2").html(synopsisLeahRose[1]).delay(3000).fadeIn(1000).delay(3500).fadeOut(500);
   fadeThree();
 };
 
 function fadeThree()  {
-  $("#lr-syn3").html(synopsisLeahRose[2]).delay(7000).fadeIn(700).delay(93000).fadeOut(500);
+  $("#lr-syn3").html(synopsisLeahRose[2]).delay(12000).fadeIn(700).delay(92000).fadeOut(500);
   fadeFour();
 };
 
 function fadeFour()  {
-  $("#lr-syn4").html(synopsisLeahRose[3]).delay(12000).fadeIn(700).delay(88000).fadeOut(500);
+  $("#lr-syn4").html(synopsisLeahRose[3]).delay(16000).fadeIn(700).delay(88000).fadeOut(500);
   fadeFive();
 };
 
 function fadeFive()  {
-  $("#lr-syn5").html(synopsisLeahRose[4]).delay(22000).fadeIn(700).delay(78000).fadeOut(500);
+  $("#lr-syn5").html(synopsisLeahRose[4]).delay(26000).fadeIn(700).delay(78000).fadeOut(500);
   fadeSix();
 };
 
 function fadeSix()  {
-  $("#lr-syn6").html(synopsisLeahRose[5]).delay(40000).fadeIn(700).delay(60000).fadeOut(500);
+  $("#lr-syn6").html(synopsisLeahRose[5]).delay(44000).fadeIn(700).delay(60000).fadeOut(500);
   fadeSeven();
 };
 
 function fadeSeven()  {
-  $("#lr-syn7").html(synopsisLeahRose[6]).delay(55000).fadeIn(700).delay(45000).fadeOut(500);
+  $("#lr-syn7").html(synopsisLeahRose[6]).delay(59000).fadeIn(700).delay(45000).fadeOut(500);
   fadeEight();
 };
 
 function fadeEight()  {
-  $("#lr-syn8").html(synopsisLeahRose[7]).delay(75000).fadeIn(700).delay(25000).fadeOut(500);
+  $("#lr-syn8").html(synopsisLeahRose[7]).delay(79000).fadeIn(700).delay(25000).fadeOut(500);
 };
 
 fadeOne();
@@ -140,7 +140,7 @@ function fadeTitle()  {
   fadeTag();
 
 
-  $("#low-man-img").delay(103000).fadeOut(1000);
+  $("#outdoor-party").delay(10000).fadeIn(1000).delay(22000).fadeOut(10000);
   // $("#low-man-img2").fadeOut(5000);
   // $("#lr-full").fadeOut(5000);
   // $(".lr-title1").fadeOut(5000);
