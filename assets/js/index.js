@@ -129,12 +129,12 @@ const titles = [`When the world around her lost its way, she made her own.`,
 // const titleTwo = setInterval(fadeTen, 2300);
 
 function fadeTag()  {
-  $("#leah-rose-tag").html(titles[0]).delay(106000).fadeIn(400);
+  $("#leah-rose-tag").html(titles[0]).delay(106000).fadeIn(400).delay(3000).fadeOut(1000);
   fadeTitle();
   };
                 
 function fadeTitle()  {
-  $(".leah-rose-title-two").html(titles[1]).delay(108000).fadeIn(700);
+  $(".leah-rose-title-two").html(titles[1]).delay(108000).fadeIn(700).delay(1000).fadeOut(1000);
   };
 
   fadeTag();
