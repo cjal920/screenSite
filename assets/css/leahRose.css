@@ -2,31 +2,31 @@ body    {
     background-color: #000;
 }
 
-/* MAIN PAGE */    
+/* LEAH ROSE PAGE */  
 
-.leah-rose-container    {
+/* .leah-rose-container    {
     position: relative;
     text-align: center;
-}
+} */
 
 #lr-full   {
     position: relative;
     opacity: 0.5;
-    width: 100%;
+    width: 50%;
+    z-index: -1;
+    display: none;
 }
 
 .lr-title1   {
     position: absolute;
-    width: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 50%;
+    text-align: center;
+    margin-top: 25%;
     font-family: 'Cinzel', serif;
     font-size: 120px;
+    display: none;
 }
 
-
-/* LEAH ROSE PAGE */
 #low-man-img    {
     position: relative;
     opacity: 1;
@@ -41,12 +41,14 @@ body    {
     display: none;
 }
 
+
+
+
 .lr-syn   {
     position: absolute;
     width: 90%;
     margin-top: 2.5%;
     margin-left: 2.5%;
-
     font-size: 18px;
     color: #fff;
 }

@@ -1,5 +1,7 @@
 $(document).ready(function()    {
 
+/* MAIN PAGE */  
+
 //plays the Leah Rose theme//
 var playLeahRose = $("#leah-zimmer")[0];
 $("#leah-rose-play-btn").on("click", function()   {
@@ -65,112 +67,33 @@ reconnecting with her roots, learning a trade and sobering up, she will emerge w
 of purpose far greater than anything she's ever known, with the strength and wisdom to 
 face whatever the dark days ahead may bring.`];
 
-// variables holding values for timing of synopsis reveal
-
-// const synopsisFirst = setTimeout(fadeOne, 1000);
-// const synopsisSecond = setInterval(fadeTwo, 2000);
-// const synopsisThird = setInterval(fadeThree, 3000);
-// const synopsisFourth= setInterval(fadeFour, 4000);
-// const synopsisFifth = setInterval(fadeFive, 5000);
-// const synopsisSixth = setInterval(fadeSix, 6000);
-// const synopsisSeventh = setInterval(fadeSeven, 7000);
-// const synopsisEighth = setInterval(fadeEight, 8000);
-
-// function to display each part of synopsis
-
+//fades in after 1 second//
+//fades out after 5 seconds//
+  $("#lr-syn1").html(synopsisLeahRose[0]).delay(1000).fadeIn(500).delay(3000).fadeOut(500);
+  $("#lr-syn2").html(synopsisLeahRose[1]).delay(2000).fadeIn(500).delay(2000).fadeOut(500); 
+  $("#outdoor-party").delay(7000).fadeIn(500).delay(5000).fadeOut(17500);
+  $("#lr-syn3").html(synopsisLeahRose[2]).delay(10000).fadeIn(500).delay(20000).fadeOut(500);
+  $("#lr-syn4").html(synopsisLeahRose[3]).delay(13000).fadeIn(500).delay(17000).fadeOut(500);
+  $("#lr-syn5").html(synopsisLeahRose[4]).delay(16000).fadeIn(500).delay(14000).fadeOut(500);
+  $("#lr-syn6").html(synopsisLeahRose[5]).delay(19000).fadeIn(500).delay(11000).fadeOut(500);
+  $("#lr-syn7").html(synopsisLeahRose[6]).delay(22000).fadeIn(500).delay(8000).fadeOut(500);
+  $("#lr-syn8").html(synopsisLeahRose[7]).delay(25000).fadeIn(500).delay(5000).fadeOut(500);
 
 
-function fadeOne()  {
-  $("#lr-syn1").html(synopsisLeahRose[0]).delay(1000).fadeIn(500).delay(6000).fadeOut(500);
-  fadeTwo();
-};
-
-function fadeTwo()  {
-  $("#lr-syn2").html(synopsisLeahRose[1]).delay(3000).fadeIn(1000).delay(3500).fadeOut(500);
-  fadeThree();
-};
-
-function fadeThree()  {
-  $("#lr-syn3").html(synopsisLeahRose[2]).delay(12000).fadeIn(700).delay(92000).fadeOut(500);
-  fadeFour();
-};
-
-function fadeFour()  {
-  $("#lr-syn4").html(synopsisLeahRose[3]).delay(16000).fadeIn(700).delay(88000).fadeOut(500);
-  fadeFive();
-};
-
-function fadeFive()  {
-  $("#lr-syn5").html(synopsisLeahRose[4]).delay(26000).fadeIn(700).delay(78000).fadeOut(500);
-  fadeSix();
-};
-
-function fadeSix()  {
-  $("#lr-syn6").html(synopsisLeahRose[5]).delay(44000).fadeIn(700).delay(60000).fadeOut(500);
-  fadeSeven();
-};
-
-function fadeSeven()  {
-  $("#lr-syn7").html(synopsisLeahRose[6]).delay(59000).fadeIn(700).delay(45000).fadeOut(500);
-  fadeEight();
-};
-
-function fadeEight()  {
-  $("#lr-syn8").html(synopsisLeahRose[7]).delay(79000).fadeIn(700).delay(25000).fadeOut(500);
-};
-
-fadeOne();
-
-
+// array that holds Leah Rose tag and title
 const titles = [`When the world around her lost its way, she made her own.`,
                 `Leah Rose`];
 
-// const titleOne = setInterval(fadeNine, 2000);
-// const titleTwo = setInterval(fadeTen, 2300);
+//fades in after 37 seconds//
+//fades out after 43 seconds//
+  $("#leah-rose-tag").html(titles[0]).delay(37000).fadeIn(500).delay(5000).fadeOut(500);
+  $(".leah-rose-title-two").html(titles[1]).delay(40000).fadeIn(500).delay(2000).fadeOut(500);
 
-function fadeTag()  {
-  $("#leah-rose-tag").html(titles[0]).delay(106000).fadeIn(400).delay(3000).fadeOut(1000);
-  fadeTitle();
-  };
-                
-function fadeTitle()  {
-  $(".leah-rose-title-two").html(titles[1]).delay(108000).fadeIn(700).delay(1000).fadeOut(1000);
-  };
-
-  fadeTag();
-
-
-  $("#outdoor-party").delay(10000).fadeIn(1000).delay(22000).fadeOut(10000);
-  // $("#low-man-img2").fadeOut(5000);
-  // $("#lr-full").fadeOut(5000);
-  // $(".lr-title1").fadeOut(5000);
-
-                
-
-  // $("#lr-syn1").fadeIn();
-  // $("#lr-syn2").fadeIn();
-  // $("#lr-syn3").fadeIn();
-  // $("#lr-syn4").fadeIn();
-  // $("#lr-syn5").fadeIn();
-  // $("#lr-syn6").fadeIn();
-  // $("#lr-syn7").fadeIn();
-
-
-// variable that holds about text
-const aboutMe = `A writer of stage and screen who tells`
-
-
-
-
-
-function synopsisLR() {
-  $("#lr.syn1").html("NEW YORK CITY");
-  $("#lr.syn1").fadeIn(500);
-  $("#lr.syn1").delay(2000);
-  $("#lr.syn1").fadeOut(500);  
-}
-
-synopsisLR();
-
-
+//fades in after 50 seconds//
+  $("#lr-full").delay(50000).fadeIn(500);
+  $(".lr-title1").delay(50000).fadeIn(500);
 });
+
+
+
+ 
