@@ -69,9 +69,9 @@ face whatever the dark days ahead may bring.`];
 
 //fades in after 1 second//
 //fades out after 5 seconds//
-  $("#lr-syn1").html(synopsisLeahRose[0]).delay(1000).fadeIn(500).delay(3000).fadeOut(500);
-  $("#lr-syn2").html(synopsisLeahRose[1]).delay(2000).fadeIn(500).delay(2000).fadeOut(500); 
-  $("#outdoor-party").delay(7000).fadeIn(500).delay(5000).fadeOut(17500);
+  $("#lr-syn1").html(synopsisLeahRose[0]).delay(1000).fadeIn(500).delay(4000).fadeOut(500);
+  $("#lr-syn2").html(synopsisLeahRose[1]).delay(2500).fadeIn(1000).delay(2000).fadeOut(500); 
+  $("#outdoor-party").delay(8000).fadeIn(500).delay(5000).fadeOut(17500);
   $("#lr-syn3").html(synopsisLeahRose[2]).delay(10000).fadeIn(500).delay(20000).fadeOut(500);
   $("#lr-syn4").html(synopsisLeahRose[3]).delay(13000).fadeIn(500).delay(17000).fadeOut(500);
   $("#lr-syn5").html(synopsisLeahRose[4]).delay(16000).fadeIn(500).delay(14000).fadeOut(500);

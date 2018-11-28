@@ -4,26 +4,22 @@ body    {
 
 /* LEAH ROSE PAGE */  
 
-/* .leah-rose-container    {
-    position: relative;
-    text-align: center;
-} */
-
 #lr-full   {
     position: relative;
-    opacity: 0.5;
-    width: 50%;
+    opacity: 1;
+    width: 100%;
     z-index: -1;
     display: none;
 }
 
 .lr-title1   {
     position: absolute;
-    width: 50%;
+    width: 100%;
     text-align: center;
-    margin-top: 25%;
+    margin-top: 50%;
     font-family: 'Cinzel', serif;
     font-size: 120px;
+    text-shadow: 2px 2px #000;
     display: none;
 }
 
@@ -40,9 +36,6 @@ body    {
     z-index: -1;
     display: none;
 }
-
-
-
 
 .lr-syn   {
     position: absolute;
@@ -62,6 +55,7 @@ body    {
 }
 
 #lr-syn2   {
+    margin-top: -27px;
     font-size: 30px; 
     font-family: 'Cormorant Upright', serif;  
     text-align: center; 
@@ -102,91 +96,24 @@ body    {
 }
 
 @media only screen and (max-width: 1200px) {
-    /* #lr-syn,
-    #lr-syn1,
-    #lr-syn2
-    {
-        font-size: 50px;
-    } */
-
-        #lr-syn3,
-        #lr-syn4,
-        #lr-syn5,
-        #lr-syn6,
-        #lr-syn7,
-        #lr-syn8
-        {
-            font-size: 15px;
-        }
 
         .leah-rose-title-two    {
             padding-top: 300px;
     }
+}
 
 @media only screen and (max-width: 1000px) {
-    /* #lr-syn,
-    #lr-syn1,
-    #lr-syn2
-    {
-        font-size: 30px;
-        text-align: center;
 
-    }
 
-        #lr-syn3,
-        #lr-syn4,
-        #lr-syn5,
-        #lr-syn6,
-        #lr-syn7,
-        #lr-syn8
-        {
-            font-size: 20px;
-            text-align: center;
-            margin: 2.5%;
-        } */
+}
 
-        @media only screen and (max-width: 768px) {
-            /* #lr-syn,
-            #lr-syn1,
-            #lr-syn2
-            {
-                font-size: 20px;
-                text-align: center;
-            }
+@media only screen and (max-width: 768px) {
 
-            #lr-syn3,
-            #lr-syn4,
-            #lr-syn5,
-            #lr-syn6,
-            #lr-syn7,
-            #lr-syn8
-            {
-                font-size: 14px;
-                text-align: center;
-                margin: 2.5%;
-            }
-        } */
 
-@media only screen and (max-width: 500px) {
-    /* #lr-syn,
-    #lr-syn1,
-    #lr-syn2
-    {
-        font-size: 14px;
-        text-align: center;
-    }
+}
 
-        #lr-syn3,
-        #lr-syn4,
-        #lr-syn5,
-        #lr-syn6,
-        #lr-syn7,
-        #lr-syn8
-        {
-            font-size: 11px;
-            text-align: center;
-            margin: 2%;
-        } */
+
+@media only screen and (max-width: 575px) {
 
         .leah-rose-title-two    {
             padding-top: 350px;
