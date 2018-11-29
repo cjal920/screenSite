@@ -81,17 +81,25 @@ face whatever the dark days ahead may bring.`];
 
 
 // array that holds Leah Rose tag and title
-const titles = [`When the world around her lost its way, she made her own.`,
+const tagTitle = [`When the world around her lost its way, she made her own.`,
                 `Leah Rose`];
 
 //fades in after 37 seconds//
 //fades out after 43 seconds//
-  $("#leah-rose-tag").html(titles[0]).delay(37000).fadeIn(500).delay(5000).fadeOut(500);
-  $(".leah-rose-title-two").html(titles[1]).delay(40000).fadeIn(500).delay(2000).fadeOut(500);
+  $("#leah-rose-tag").html(tagTitle[0]).delay(37000).fadeIn(500).delay(5000).fadeOut(500);
+  $(".leah-rose-title-two").html(tagTitle[1]).delay(40000).fadeIn(500).delay(2000).fadeOut(500);
 
 //fades in after 50 seconds//
-  $("#lr-full").delay(50000).fadeIn(500);
-  $(".lr-title1").delay(50000).fadeIn(500);
+  $("#lr-full").delay(50000).fadeIn(500).delay(5000).fadeOut(500);
+  $(".lr-title1").delay(50000).fadeIn(500).delay(5000).fadeOut(500);
+
+
+//fades in after 60 seconds//
+/* WORK IN PROGRESS */
+
+$("#lr-half").delay(60000).fadeIn(500).delay(5000);
+$(".lr-title2").delay(60000).fadeIn(500).delay(5000);
+
 });
 
 

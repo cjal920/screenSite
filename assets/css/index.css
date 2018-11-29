@@ -2,30 +2,14 @@ body    {
     color: #7e7e7e;
     background-color: #000;
     font-weight: 100;
-    /* font-family: 'Cinzel', serif;
-font-family: 'Diplomata', cursive;
-font-family: 'Great Vibes', cursive;
-font-family: 'Josefin Slab', serif;
-font-family: 'Notable', sans-serif;
-font-family: 'Averia Libre', cursive;
-font-family: 'IM Fell DW Pica SC', serif; */
 }
-
-/* .container  {
-    position: relative;
-} */
-
-/* img {
-    z-index: -1;
-    background-color: #fff;
-} */
 
 .poster-img-lr   {
     /* position: relative; */
     width: 226px;
     height: 354px;
-    background-color: #000;
-    z-index: 1;
+    /* background-color: #000; */
+    /* z-index: 1; */
 }
 
 #leah-rose-img  {
