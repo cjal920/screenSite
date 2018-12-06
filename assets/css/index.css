@@ -1,34 +1,22 @@
+/* MAIN PAGE */
+
 body    {
     color: #7e7e7e;
     background-color: #000;
-    font-weight: 100;
+    /* font-weight: 100; */
 }
 
-.poster-img-lr   {
-    /* position: relative; */
+.lr-img-container-index   {
     width: 226px;
     height: 354px;
-    /* background-color: #000; */
-    /* z-index: 1; */
+}
+ 
+#lr-img-index  { 
+    border: solid 8px #bbad7a;
+    width: 100%;
 }
 
-#leah-rose-img  {
-    /* position: relative; */
-    /* background-color: #fff; */
-    /* opacity: 0; */
-}
-
-.leah-rose-title  {
-    position: absolute;
-    text-align: center;
-    top: 90%;
-    left: 50%;
-    transform: translate(-100%, -100%);
-    color: #927e3d;
-    font-size: 30px;
-}
-
-.leah-rose-txt  {
+.lr-p-index  {
     position: absolute;
     width: 50%;
     left: 15%;
@@ -37,10 +25,9 @@ body    {
     font-size: 12px;
     font-weight: bold;
     opacity: 0;
-    /* visibility: hidden; */
 }
 
-#leah-rose-play-btn {
+#lr-play-symbol-index {
     position: absolute; 
     left: 25%;
     top: 60%;
@@ -51,11 +38,200 @@ body    {
     border-color: transparent transparent transparent #fff;
     opacity: 0; 
   }
-  
+
+.lr-title  {
+    position: absolute;
+    text-align: center;
+    top: 70%;
+    left: 10%;
+    /* transform: translate(-100%, -100%); */
+    text-shadow: 2px 2px #000;
+    font-size: 30px;
+}
+
+.bl-title  {
+    position: absolute;
+    text-align: center;
+    top: 70%;
+    left: 10%;
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    color: #ff5e00;
+    text-shadow: 2px 2px #000;
+    font-size: 30px;
+}
+ 
+.f-title  {
+    position: absolute;
+    text-align: center;
+    top: 70%;
+    left: 10%;
+    /* left: 50%; */
+    /* transform: translate(-100%, -100%); */
+    color: #047400;
+    text-shadow: 2px 2px #000;
+    font-size: 40px;
+}
+
+
+/* LEAH ROSE MAIN */
+
+.lr-img-container-one {
+    position: relative;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#lr-img-one  {
+    border: solid 8px #bbad7a;
+    width: 100%;
+}
+
+.lr-title-one    {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    font-family: 'Cormorant Upright', serif; 
+    text-shadow: 2px 2px #000;
+    font-size: 50px;
+}
+
+.lr-about-one {
+    height: 539px;
+    margin-top: 50px;
+    padding-left: 25px;
+    border-left: solid 1px #bbad7a;
+}
 
 
 
-/* fishtown */
+
+/* LEAH ROSE TRAILER */  
+
+#low-man-img    {
+    position: relative;
+    opacity: 1;
+    width: 100%;
+}
+
+#outdoor-party   {
+    position: relative;
+    opacity: 0.5;
+    width: 100%;
+    z-index: -1;
+    display: none;
+}
+
+.lr-synopsis-two   {
+    position: absolute;
+    width: 90%;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    font-size: 18px;
+    color: #fff;
+}
+
+#lr-syn1-two   {
+    margin-top: 20%;
+    font-family: 'Cormorant Upright', serif;  
+    font-size: 30px;
+    text-align: center; 
+    display: none;
+}
+
+#lr-syn2-two   {
+    margin-top: -27px;
+    font-size: 30px; 
+    font-family: 'Cormorant Upright', serif;  
+    text-align: center; 
+    display: none;
+}
+
+#lr-syn3-two,
+#lr-syn4-two,
+#lr-syn5-two,
+#lr-syn6-two,
+#lr-syn7-two,
+#lr-syn8-two
+{
+    text-shadow: 2px 2px #000;
+    display: none;
+}
+
+
+#lr-tagline-two  {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    padding-top: 200px;
+    padding-bottom: 50px;
+    font-family: 'Cinzel', serif;
+    font-size: 28px;
+    display: none;
+}
+
+.lr-title-two    {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        padding-top: 250px;
+        font-family: 'Cinzel', serif;
+        font-size: 120px;
+        display: none;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+
+        .leah-rose-title-two    {
+            padding-top: 300px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+
+
+}
+
+@media only screen and (max-width: 768px) {
+
+
+}
+
+
+@media only screen and (max-width: 575px) {
+
+        .leah-rose-title-two    {
+            padding-top: 350px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .fishtown-title  {
