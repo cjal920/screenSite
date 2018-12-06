@@ -1,7 +1,7 @@
 /* MAIN PAGE */
 
 body    {
-    color: #7e7e7e;
+    color: #fff;
     background-color: #000;
     /* font-weight: 100; */
 }
@@ -110,6 +110,7 @@ body    {
 
 /* LEAH ROSE TRAILER */  
 
+
 #low-man-img    {
     position: relative;
     opacity: 1;
@@ -130,7 +131,6 @@ body    {
     margin-top: 2.5%;
     margin-left: 2.5%;
     font-size: 18px;
-    color: #fff;
 }
 
 #lr-syn1-two   {
