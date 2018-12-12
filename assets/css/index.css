@@ -74,6 +74,57 @@ body    {
 }
 
 
+
+
+.lr-title-index {
+    padding-top: 100px;
+    /* padding-bottom: 100px; */
+    color: #2b2b2b;
+    font-size: 85px;
+    font-weight: bold;
+}
+
+
+#lr-play-symbol-index2 {
+    /* position: absolute;  */
+    /* left: 25%; */
+    /* top: 60%; */
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 2.5em 0 2.5em 5em;
+    border-color: transparent transparent transparent #fff;
+    opacity: 0.5; 
+  }
+
+  #lr-play-symbol-index2:hover {
+    opacity: 1; 
+  }
+
+  #lr-btn-index2   {
+    background-color: #000;
+    border-color: transparent;
+  }
+
+
+
+.bl-title-index {
+    padding-top: 100px;
+    /* padding-bottom: 100px; */
+    color: #2b2b2b;
+    font-size: 85px;
+    font-weight: bold;
+}
+
+.f-title-index {
+    padding-top: 100px;
+    /* padding-bottom: 100px; */
+    color: #2b2b2b;
+    font-size: 85px;
+    font-weight: bold;
+}
+
+
 /* LEAH ROSE MAIN */
 
 .lr-img-container-one {
@@ -104,6 +155,31 @@ body    {
     padding-left: 25px;
     border-left: solid 1px #bbad7a;
 }
+
+
+#lr-play-symbol-one {
+    /* position: absolute;  */
+    /* left: 25%; */
+    /* top: 60%; */
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 2.5em 0 2.5em 5em;
+    border-color: transparent transparent transparent #fff;
+    opacity: 0.5; 
+  }
+
+  #lr-play-symbol-one:hover {
+    opacity: 1; 
+  }
+
+
+  #lr-btn-one   {
+    background-color: #000;
+    border-color: transparent;
+  }
+
+ 
 
 
 

@@ -3,7 +3,7 @@ $(document).ready(function()    {
 /* MAIN PAGE */  
 
 //plays the Leah Rose main theme//
-var playLeahRose = $("#leah-eliz")[0];
+const playLeahRose = $("#leah-eliz")[0];
 $("#lr-play-symbol-index").on("click", function()   {
     // watchLeahRose();
     playLeahRose.play();
@@ -15,16 +15,34 @@ $("#lr-btn-1-index").on("click", function() {
 });
 
 //plays the Leah Rose trailer theme//
-var playLeahRoseTrailer = $("#leah-bugsy")[0];
+const playLeahRoseTrailer = $("#leah-bugsy")[0];
 $("#lr-play-symbol-index").on("click", function()   {
     // watchLeahRose();
     playLeahRoseTrailer.play();
 });
 
-// brings us to Leah Rose trailer and plays trailer theme //
+// from top index, brings us to Leah Rose trailer and plays trailer theme //
 $("#lr-btn-2-index").on("click", function() {
   playLeahRoseTrailer.play();
 });
+
+// from page one, brings us to Leah Rose trailer and plays trailer theme //
+const trailerLeahRoseOne = $("#leah-onegin")[0];
+$("#lr-play-symbol-one").on("click", function()   {
+  // watchLeahRose();
+  trailerLeahRoseOne.play();
+});
+
+// from bottom index, brings us to Leah Rose trailer and plays trailer theme //
+const trailerLeahRoseIndex2 = $("#leah-onegin")[0];
+$("#lr-play-symbol-index2").on("click", function()   {
+  // watchLeahRose();
+  trailerLeahRoseIndex2.play();
+});
+
+
+
+
 
 // fades in Leah Rose logline and play button when we hover over image
 $(".lr-img-container-index").mouseover(function() {
@@ -56,7 +74,7 @@ $(".lr-img-container-index").mouseover(function() {
 
 // array that holds Leah Rose synopsis
 const synopsisLeahRose = [`NEW YORK CITY.`, `SUMMER 1929.`, `She has it all. Youth. Beauty. A great man. A beautiful home. 
-And enough money for a lifetime.`, `And during the last summer of the 1920s, popular socialite Leah Rose indulges
+Enough money for a lifetime.`, `And during the last summer of the 1920s, popular socialite Leah Rose indulges
 in all the delights the good life has to offer with her fella and their circle of fabulous friends.
 `, `But what Leah and no one else around her knows is that these glorious golden days
 are numbered. Down on Wall Street, just a few miles south of her
@@ -100,8 +118,8 @@ const tagTitle = [`When the world around her lost its way, she made her own.`,
 
 //fades in after 37 seconds//
 //fades out after 43 seconds//
-  $("#lr-tagline-two").html(tagTitle[0]).delay(37000).fadeIn(500).delay(5000).fadeOut(500);
-  $(".lr-title-two").html(tagTitle[1]).delay(40000).fadeIn(500).delay(2000).fadeOut(500);
+  $("#lr-tagline-two").html(tagTitle[0]).delay(33000).fadeIn(500).delay(7000).fadeOut(500);
+  $(".lr-title-two").html(tagTitle[1]).delay(37000).fadeIn(500).delay(3000).fadeOut(500);
 
 //fades in after 50 seconds//
   $("#lr-full").delay(50000).fadeIn(500).delay(5000).fadeOut(500);
