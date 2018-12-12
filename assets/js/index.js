@@ -34,10 +34,10 @@ $("#lr-play-symbol-one").on("click", function()   {
 });
 
 // from bottom index, brings us to Leah Rose trailer and plays trailer theme //
-const trailerLeahRoseIndex2 = $("#leah-onegin")[0];
-$("#lr-play-symbol-index2").on("click", function()   {
+const trailerLeahRoseIndex = $("#leah-onegin")[0];
+$("#lr-play-symbol__index").on("click", function()   {
   // watchLeahRose();
-  trailerLeahRoseIndex2.play();
+  trailerLeahRoseIndex.play();
 });
 
 
