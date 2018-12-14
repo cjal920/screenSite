@@ -17,9 +17,48 @@ body    {
     font-weight: bold;
 }
 
-  #lr-btn__index   {
+.lr-about__index    {
+
+}
+
+.lr-stats__index    {
+
+}
+
+.lr-logline__index  {
+
+}
+
+.lr-awards__index   {
+
+}
+
+#lr-awards-list__index   {
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+#lr-awards-list__index:hover   {
+    opacity: 1;
+}
+
+#lr-btn__index   {
     background-color: #000;
     border-color: transparent;
+  }
+
+  #lr-play-symbol__index {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 2.5em 0 2.5em 5em;
+    border-color: transparent transparent transparent #fff;
+    opacity: 0.5; 
+  }
+
+  #lr-play-symbol__index:hover {
+    opacity: 1; 
   }
 
   .lr-img-container__index {
@@ -45,26 +84,34 @@ body    {
 }
 
 
-#lr-play-symbol__index {
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 2.5em 0 2.5em 5em;
-    border-color: transparent transparent transparent #fff;
-    opacity: 0.5; 
-  }
 
-  #lr-play-symbol__index:hover {
-    opacity: 1; 
-  }
-
-.lr-screen__index   {
-    /* position: relative; */
-    width: 100%; 
-    /* height: 200px; */
-    background-color: #2b2b2b;
-    border: 3px solid #2b2b2b;
+.lr-screen__index {
+    position: relative;
+    text-align: center;
+    padding-top: 50px;
+    width: 100%;
 }
+
+#outdoor-party__index  {
+    border: solid 8px #2b2b2b;
+    width: 100%;
+}
+
+/* .lr-title-img__index    {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    font-family: 'Cormorant Upright', serif; 
+    text-shadow: 2px 2px #000;
+    font-size: 50px;
+} */
+
+
+
+
+
 
 
 
