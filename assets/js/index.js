@@ -3,7 +3,7 @@ $(document).ready(function()    {
 /* MAIN PAGE */  
 
 // from bottom index, brings us to Leah Rose trailer and plays trailer theme //
-const movieLeahRose = $("#leah-onegin")[0];
+const movieLeahRose = $("#leah-eliz")[0];
 $("#lr-play-symbol__index").on("click", function()   {
   movieLeahRose.play();
 });
