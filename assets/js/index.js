@@ -2,72 +2,11 @@ $(document).ready(function()    {
 
 /* MAIN PAGE */  
 
-//plays the Leah Rose main theme//
-const playLeahRose = $("#leah-eliz")[0];
-$("#lr-play-symbol-index").on("click", function()   {
-    // watchLeahRose();
-    playLeahRose.play();
-});
-
-// brings us to Leah Rose page and also plays her theme //
-$("#lr-btn-1-index").on("click", function() {
-  playLeahRose.play();
-});
-
-//plays the Leah Rose trailer theme//
-const playLeahRoseTrailer = $("#leah-bugsy")[0];
-$("#lr-play-symbol-index").on("click", function()   {
-    // watchLeahRose();
-    playLeahRoseTrailer.play();
-});
-
-// from top index, brings us to Leah Rose trailer and plays trailer theme //
-$("#lr-btn-2-index").on("click", function() {
-  playLeahRoseTrailer.play();
-});
-
-// from page one, brings us to Leah Rose trailer and plays trailer theme //
-const trailerLeahRoseOne = $("#leah-onegin")[0];
-$("#lr-play-symbol-one").on("click", function()   {
-  // watchLeahRose();
-  trailerLeahRoseOne.play();
-});
-
 // from bottom index, brings us to Leah Rose trailer and plays trailer theme //
-const trailerLeahRoseIndex = $("#leah-onegin")[0];
+const movieLeahRose = $("#leah-onegin")[0];
 $("#lr-play-symbol__index").on("click", function()   {
-  // watchLeahRose();
-  trailerLeahRoseIndex.play();
+  movieLeahRose.play();
 });
-
-
-
-
-
-// fades in Leah Rose logline and play button when we hover over image
-$(".lr-img-container-index").mouseover(function() {
-    $("#lr-img-index").animate({opacity: "0.5"});  
-    $(".lr-p-index").css({opacity: "1"});
-    $("#lr-play-symbol-index").css({opacity: "0.5"});
-  });
-
-// when we leave image, all returns to normal
-  $(".lr-img-container-index").mouseout(function() {
-    $("#lr-img-index").animate({opacity: "0.5"});
-    $(".lr-p-index").css({opacity: "0"});
-    $("#lr-play-symbol-index").css({opacity: "0"});
-  });
-
-  $(".lr-container-index").mouseout(function() {
-    $("#lr-img-index").animate({opacity: "1"});
-  });
-
-// when we hover over play button, it brightens to full white
-  $(".lr-play-container-index").mouseover(function() {
-    $("#lr-img-index").animate({opacity: "0.5"});
-    $("#lr-play-symbol-index").css({opacity: "1"});
-    $(".lr-p-index").css({opacity: "1"});
-  });
 
 
 /* LEAH ROSE PAGE */
@@ -121,16 +60,6 @@ const tagTitle = [`When the world around her lost its way, she made her own.`,
   $("#lr-tagline-two").html(tagTitle[0]).delay(33000).fadeIn(500).delay(7000).fadeOut(500);
   $(".lr-title-two").html(tagTitle[1]).delay(37000).fadeIn(500).delay(3000).fadeOut(500);
 
-//fades in after 50 seconds//
-  $("#lr-full").delay(50000).fadeIn(500).delay(5000).fadeOut(500);
-  $(".lr-title1").delay(50000).fadeIn(500).delay(5000).fadeOut(500);
-
-
-//fades in after 60 seconds//
-/* WORK IN PROGRESS */
-
-$("#lr-half").delay(60000).fadeIn(500).delay(5000);
-$(".lr-title2").delay(60000).fadeIn(500).delay(5000);
 
 });
 
