@@ -1,5 +1,138 @@
 $(document).ready(function()    {
 
+
+
+
+
+// $("#main-titles").animate(5000);
+ 
+var start = function()  {
+
+  var openCredits = document.getElementById("cava-rust");
+  var playButton = document.getElementById("play-btn");
+  var pauseButton = document.getElementById("pause-btn");
+  var ppButton = document.getElementById("pp-btn");
+
+  var mainTitles = ["Paramount Pictures Presents", "A Colin Larkin Picture", "Leah Rose"];
+
+
+  var soundPlay = function(e) {
+      openCredits.play();
+      picturePlay();
+//        pictureFade();
+      console.log("it's playing!")
+  }
+ 
+  var soundPause = function(e) {
+      openCredits.pause();
+      console.log("it paused!")
+  }
+
+  var soundPP = function(e)   {
+      if (openCredits.paused)  {
+          openCredits.play();
+          ppButton.textContent = "PAUSE"
+      }
+      else {
+          openCredits.pause();
+          ppButton.textContent = "PLAY"
+  }
+}
+  var picturePlay = function(e)   {
+     for (let i = 0; i < mainTitles.length; i++) {            // let?   // forEach()?
+      $("#main-titles").html("<h1>" + mainTitles[i] + "</h1>");
+      paramountPlay();
+//        colinlarkinPlay();
+//         $("#main-titles").fadeIn(2000);
+//        $("#main-titles").fadeIn(5000);
+      console.log("it's playing!")
+    }
+  }
+
+
+  var paramountPlay = function(e) {
+      $("#main-titles").html("<h1>" + mainTitles[0] + "</h1>");
+      $("#main-titles").fadeIn(2000);
+      $("#main-titles").fadeOut(2000);
+
+      console.log("it's paramount")
+      return;                                         // return to stop function?
+  }
+
+//       var paramountStop = function(e) {
+//
+//        }
+
+
+
+  var colinlarkinPlay = function(e) {
+      $("#main-titles").html("<h1>" + mainTitles[1] + "</h1>");
+      $("#main-titles").fadeIn(2000);
+      $("#main-titles").fadeOut(2000);
+      console.log("it's colin larkin!")
+  }
+
+  stop();
+
+
+
+//     var pictureFade = function(e)  {
+//         $("#main-titles").fadeIn(5000);
+//   }
+
+
+//    var pictureFade = function(e)   {
+//           mainTitles.fadeIn("slow", function() {
+//          console.log("it's fading in!")
+//         mainTitles.animate({opacity: "1"}, 3000);
+// $("#main-titles").fadeIn(5000);
+// };
+
+
+$("#play-btn").on("click", function() {
+ soundPlay(openCredits);
+});
+
+$("#pause-btn").on("click", function() {
+ soundPause(openCredits);
+});
+
+$("#pp-btn").on("click", function() {
+ soundPP(openCredits);
+});
+
+//  $("#title-credits").fadeIn("slow", function())    {
+
+// }
+
+//  picturePlay();
+
+
+//  $("#play-btn").click(function(){
+//   $("#main-titles").fadeIn();
+//    $("#div2").fadeIn("slow");
+//    $("#div3").fadeIn(3000);
+//   });
+
+
+};
+
+//  playButton.addEventListener("click", soundPlay, false);
+// pauseButton.addEventListener("click", soundPause, false);
+// ppButton.addEventListener("click", soundPP, false);
+
+
+
+window.onload = start;
+
+
+
+
+
+
+
+
+
 /* MAIN PAGE */  
 
 // from bottom index, brings us to Leah Rose trailer and plays trailer theme //
