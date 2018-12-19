@@ -7,10 +7,22 @@ body    {
 }
 
 
-#main-titles    {
+#lr-syn1__index,
+#lr-syn2__index,
+#lr-syn3__index,
+#lr-syn4__index,
+#lr-syn5__index,
+#lr-syn6__index,
+#lr-syn7__index,
+#lr-syn8__index,
+#lr-syn9__index,
+#lr-syn10__index {
     display: none;
-    margin: 200px;
 }
+
+
+
+
 
 
 
