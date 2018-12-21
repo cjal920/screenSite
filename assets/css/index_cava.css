@@ -2,13 +2,35 @@
 
 body    {
     color: #fff;
-    background-color: #000;
+    /* background-color: #000; */
     /* font-weight: 100; */
 }
 
+.lr-synopsis__index {
+    position: absolute;
+    width: 90%;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    font-size: 18px;
+}
 
-#lr-syn1__index,
-#lr-syn2__index,
+#lr-syn1__index {
+    /* margin-top: 20%; */
+    font-family: 'Cormorant Upright', serif;  
+    font-size: 30px;
+    text-align: center; 
+    display: none;
+}
+
+#lr-syn2__index {
+    /* margin-top: -27px; */
+    font-size: 30px; 
+    font-family: 'Cormorant Upright', serif;  
+    text-align: center; 
+    display: none;
+}
+
+
 #lr-syn3__index,
 #lr-syn4__index,
 #lr-syn5__index,
@@ -17,433 +39,17 @@ body    {
 #lr-syn8__index,
 #lr-syn9__index,
 #lr-syn10__index {
+    /* position: relative; */
     display: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /* LEAH ROSE */
-
-
-.lr-title__index {
-    padding-top: 100px;
-    /* padding-bottom: 100px; */
-    color: #2b2b2b;
-    font-size: 85px;
-    font-weight: bold;
-}
-
-
-#lr-awards-list__index   {
-    color: #fff;
-    text-decoration: none;
-    opacity: 0.5;
-}
-
-#lr-awards-list__index:hover   {
-    opacity: 1;
-}
-
-.lr-btn__index   {
-    background-color: #000;
-    border-color: transparent;
-  }
-
-  #lr-play-symbol__index {
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 2.5em 0 2.5em 5em;
-    border-color: transparent transparent transparent #fff;
-    opacity: 0.5; 
-  }
-
-  #lr-play-symbol__index:hover {
-    opacity: 1; 
-  }
-
-  .lr-img-container__index {
-    position: relative;
-    text-align: center;
-    padding-top: 50px;
-}
-
-#lr-img__index  {
+#lr-screen-img__index   {
     border: solid 8px #2b2b2b;
     width: 100%;
-}
-
-.lr-title-img__index    {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    width: 100%;
-    transform: translate(-50%, -50%);
-    font-family: 'Cormorant Upright', serif; 
-    text-shadow: 2px 2px #000;
-    font-size: 50px;
-}
-
-
-
-.lr-screen__index {
-    position: relative;
-    /* text-align: center; */
-    padding-top: 50px;
-    /* width: 100%; */
-}
-
-.lr-screen-border__index    {
-    position: relative;
-    border: solid 4px #2b2b2b;
-    /* background-color: #000; */
-    /* width: 100%; */
-    /* height: 515px; */
+    /* position: relative; */
+    /* display: none; */
+    /* position: relative; */
+    /* opacity: 0.5; */
+    /* z-index: -1; */
     /* display: none; */
 }
-
-#black-screen__index  {
-    /* position: absolute; */
-    width: 100%;
-    /* height: 100%; */
-}
-
-.lr-synopsis__index {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 100%;
-    transform: translate(-50%, -50%);
-    text-shadow: 2px 2px #000;
-    font-size: 10px;
-    /* display: none; */
-}
-
-#lr-play-symbol___index {
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 2.5em 0 2.5em 5em;
-    border-color: transparent transparent transparent #fff;
-    opacity: 0.5; 
-  }
-
-  #lr-play-symbol___index:hover {
-    opacity: 1; 
-  }
-
-  .lr-btn___index   {
-    background-color: #000;
-    border-color: transparent;
-  }
-
-
-
-
-
-
-
-#outdoor-party__index  {
-    border: solid 8px #2b2b2b;
-    width: 100%;
-    /* display: none; */
-}
-
-
-/* .lr-title-img__index    {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    width: 100%;
-    transform: translate(-50%, -50%);
-    font-family: 'Cormorant Upright', serif; 
-    text-shadow: 2px 2px #000;
-    font-size: 50px;
-} */
-
-#lr-play-symbol__index {
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 2.5em 0 2.5em 5em;
-    border-color: transparent transparent transparent #fff;
-    opacity: 0.5; 
-  }
-
-  #lr-play-symbol__index:hover {
-    opacity: 1; 
-  }
-
-  #lr-btn__index   {
-    background-color: #000;
-    border-color: transparent;
-
-  }
-
-
-
-
-
-/* BETWEEN LINES */
-
-
-  .bl-title__index {
-    padding-top: 100px;
-    /* padding-bottom: 100px; */
-    color: #2b2b2b;
-    font-size: 85px;
-    font-weight: bold;
-}
-
-
-#bl-play-symbol__index {
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 2.5em 0 2.5em 5em;
-    border-color: transparent transparent transparent #fff;
-    opacity: 0.5; 
-  }
-
-  #bl-play-symbol__index:hover {
-    opacity: 1; 
-  }
-
-  #bl-btn__index   {
-    background-color: #000;
-    border-color: transparent;
-  }
-
-
-.bl-img-container__index {
-    position: relative;
-    text-align: center;
-    padding-top: 50px;
-}
-
-#bl-img__index  {
-    border: solid 8px #2b2b2b;
-    width: 100%;
-}
-
-.bl-title-img__index    {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    width: 100%;
-    transform: translate(-50%, -50%);
-    font-family: 'Cormorant Upright', serif; 
-    text-shadow: 2px 2px #000;
-    font-size: 50px;
-}
-
-
-
-
-  /* FISHTOWN */
-
-  .f-title__index {
-    padding-top: 100px;
-    /* padding-bottom: 100px; */
-    color: #2b2b2b;
-    font-size: 85px;
-    font-weight: bold;
-}
-
-
-#f-play-symbol__index {
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 2.5em 0 2.5em 5em;
-    border-color: transparent transparent transparent #fff;
-    opacity: 0.5; 
-  }
-
-  #f-play-symbol__index:hover {
-    opacity: 1; 
-  }
-
-  #f-btn__index   {
-    background-color: #000;
-    border-color: transparent;
-  }
-
-  .f-img-container__index {
-    position: relative;
-    text-align: center;
-    padding-top: 50px;
-}
-
-#f-img__index  {
-    border: solid 8px #2b2b2b;
-    width: 100%;
-}
-
-.f-title-img__index    {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    width: 100%;
-    transform: translate(-50%, -50%);
-    font-family: 'Cormorant Upright', serif; 
-    text-shadow: 2px 2px #000;
-    font-size: 50px;
-}
-
-
-
-
-
-
-
-
-
-
-
-.bl-title__index {
-    padding-top: 100px;
-    /* padding-bottom: 100px; */
-    color: #2b2b2b;
-    font-size: 85px;
-    font-weight: bold;
-}
-
-.f-title__index {
-    padding-top: 100px;
-    /* padding-bottom: 100px; */
-    color: #2b2b2b;
-    font-size: 85px;
-    font-weight: bold;
-}
-
-
-
-/* LEAH ROSE TRAILER */  
-
-
-#low-man-img    {
-    position: relative;
-    opacity: 1;
-    width: 100%;
-}
-
-#outdoor-party   {
-    position: relative;
-    opacity: 0.5;
-    width: 100%;
-    z-index: -1;
-    display: none;
-}
-
-.lr-synopsis-two   {
-    position: absolute;
-    width: 90%;
-    margin-top: 2.5%;
-    margin-left: 2.5%;
-    font-size: 18px;
-}
-
-#lr-syn1-two   {
-    margin-top: 20%;
-    font-family: 'Cormorant Upright', serif;  
-    font-size: 30px;
-    text-align: center; 
-    display: none;
-}
-
-#lr-syn2-two   {
-    margin-top: -27px;
-    font-size: 30px; 
-    font-family: 'Cormorant Upright', serif;  
-    text-align: center; 
-    display: none;
-}
-
-#lr-syn3-two,
-#lr-syn4-two,
-#lr-syn5-two,
-#lr-syn6-two,
-#lr-syn7-two,
-#lr-syn8-two
-{
-    text-shadow: 2px 2px #000;
-    display: none;
-}
-
-
-#lr-tagline-two  {
-    position: absolute;
-    text-align: center;
-    width: 100%;
-    padding-top: 200px;
-    padding-bottom: 50px;
-    font-family: 'Cinzel', serif;
-    font-size: 28px;
-    display: none;
-}
-
-.lr-title-two    {
-        position: absolute;
-        text-align: center;
-        width: 100%;
-        padding-top: 250px;
-        font-family: 'Cinzel', serif;
-        font-size: 120px;
-        display: none;
-}
-
-
-
-@media only screen and (max-width: 1200px) {
-
-        .leah-rose-title-two    {
-            padding-top: 300px;
-    }
-}
-
-@media only screen and (max-width: 1000px) {
-
-
-}
-
-@media only screen and (max-width: 768px) {
-
-
-}
-
-
-@media only screen and (max-width: 575px) {
-
-        .leah-rose-title-two    {
-            padding-top: 350px;
-    }
-}
-
-
-/*  */
-/*  */
-/*  */
-
-
-
-
