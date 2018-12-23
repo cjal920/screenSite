@@ -2,48 +2,103 @@
 
 body    {
     color: #fff;
-    /* background-color: #000; */
-    /* font-weight: 100; */
+    background-color: #000;
+    font-weight: 100;
 }
 
-.lr-synopsis__index {
+
+.buttons__movie {
+    padding: 20px;
+}
+
+#play-btn__movie,
+#pause-btn__movie    {
+    background-color: #000;
+    border-color: transparent; 
+}
+
+/* 1em = 16px */
+
+.play-symbol__movie   {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 40px 0 2.5em 5em;
+    border-color: transparent transparent transparent #fff;
+    opacity: 0.25; 
+}
+
+.play-symbol__movie:hover {
+    opacity: 1; 
+  }
+
+#pp-btn__movie    {
+    
+}
+
+.pause-symbol__movie {
+    /* float:left;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box; */
+    margin-left:16px;
+    width: 56px;
+    height: 80px;
+    border-left: 18px solid #000;
+    border-right: 18px solid #000;
+    border-color: #fff;
+    opacity: 0.25;
+  }
+
+  .pause-symbol__movie:hover {
+    opacity: 1; 
+  }
+
+
+
+
+.lr-synopsis__movie {
     position: absolute;
-    width: 90%;
-    margin-top: 2.5%;
-    margin-left: 2.5%;
+    width: 100%;
+    /* padding: 50px; */
+    /* margin-top: 175px; */
+    /* margin-left: 2.5%; */
+    /* font-size: 18px; */
+}
+
+#lr-syn1__movie {
+    margin-top: 175px;
+    /* font-family: 'Cormorant Upright', serif;   */
     font-size: 18px;
-}
-
-#lr-syn1__index {
-    /* margin-top: 20%; */
-    font-family: 'Cormorant Upright', serif;  
-    font-size: 30px;
     text-align: center; 
     display: none;
 }
 
-#lr-syn2__index {
-    /* margin-top: -27px; */
-    font-size: 30px; 
-    font-family: 'Cormorant Upright', serif;  
+#lr-syn2__movie {
+    /* margin-top: 100px; */
+    font-size: 18px; 
+    /* font-family: 'Cormorant Upright', serif;   */
     text-align: center; 
     display: none;
 }
 
 
-#lr-syn3__index,
-#lr-syn4__index,
-#lr-syn5__index,
-#lr-syn6__index,
-#lr-syn7__index,
-#lr-syn8__index,
-#lr-syn9__index,
-#lr-syn10__index {
+#lr-syn3__movie,
+#lr-syn4__movie,
+#lr-syn5__movie,
+#lr-syn6__movie,
+#lr-syn7__movie,
+#lr-syn8__movie,
+#lr-syn9__movie,
+#lr-syn10__movie {
     /* position: relative; */
+    font-size: 12px;
+    margin: 2.5%;
+    width: 90%;
     display: none;
 }
 
-#lr-screen-img__index   {
+#lr-screen-img__movie   {
     border: solid 8px #2b2b2b;
     width: 100%;
     /* position: relative; */

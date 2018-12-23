@@ -1,16 +1,11 @@
 $(document).ready(function()    {
-
-
-// $("#main-titles").animate(5000);
  
 const start = function()  {
 
-  const openCredits = document.getElementById("cava-rust");
-  const playButton = document.getElementById("play-btn");
-  const pauseButton = document.getElementById("pause-btn");
-  const ppButton = document.getElementById("pp-btn");
-
-  const mainTitles = ["Paramount Pictures Presents", "A Colin Larkin Picture", "Leah Rose"];
+  const openCredits = document.getElementById("cava-rust__movie");
+  const playButton = document.getElementById("play-btn__movie");
+  const pauseButton = document.getElementById("pause-btn__movie");
+  const ppButton = document.getElementById("pp-btn__movie");
 
 // array that holds Leah Rose titles
 const synopsisLeahRose = [`NEW YORK CITY.`, `SUMMER 1929.`, `She has it all. Youth. Beauty. A great man. A beautiful home. 
@@ -43,14 +38,24 @@ face whatever the dark days ahead may bring.`, `When the world around her lost i
 
 const soundPlay = function(e) {
       openCredits.play();
+    //   synopsisLeahRose[0].start();
       picturePlay();
-      console.log("it's playing!")
+      console.log("roll sound!")
   }
+
+  $("#play-btn__movie").on("click", function() {
+    soundPlay(openCredits);
+   });
  
   const soundPause = function(e) {
-      openCredits.pause();
-      console.log("it paused!")
+      openCredits.pause(); 
+    //   picturePause();
+      console.log("pause sound!")
   }
+
+  $("#pause-btn__movie").on("click", function() {
+    soundPause(openCredits);
+   });
 
   const soundPP = function(e)   {
       if (openCredits.paused)  {
@@ -62,57 +67,50 @@ const soundPlay = function(e) {
           ppButton.textContent = "PLAY"
   }
 }
+
+$("#pp-btn__movie").on("click", function() {
+    soundPP(openCredits);
+   });
+
 const picturePlay = function(e)   {
-       paramountPlay();
-  }
-
-
-  const paramountPlay = function(e) {
-      $("#lr-syn1__index").html("<p>" + synopsisLeahRose[0] + "</p").delay(1000).fadeIn(500).delay(4000).fadeOut(500);
-      $("#lr-syn2__index").html("<p>" + synopsisLeahRose[1] + "</p>").delay(2500).fadeIn(1000).delay(2000).fadeOut(500);
-      $("#lr-syn3__index").html("<p>" + synopsisLeahRose[2] + "</p>").delay(10000).fadeIn(500).delay(20000).fadeOut(500);
-      $("#lr-syn4__index").html("<p>" + synopsisLeahRose[3] + "</p>").delay(13000).fadeIn(500).delay(17000).fadeOut(500);
-      $("#lr-syn5__index").html("<p>" + synopsisLeahRose[4] + "</p>").delay(16000).fadeIn(500).delay(14000).fadeOut(500);
-      $("#lr-syn6__index").html("<p>" + synopsisLeahRose[5] + "</p>").delay(19000).fadeIn(500).delay(11000).fadeOut(500);
-      $("#lr-syn7__index").html("<p>" + synopsisLeahRose[6] + "</p>").delay(22000).fadeIn(500).delay(8000).fadeOut(500);
-      $("#lr-syn8__index").html("<p>" + synopsisLeahRose[7] + "</p>").delay(25000).fadeIn(500).delay(5000).fadeOut(500);
-      $("#lr-syn9__index").html("<h3>" + synopsisLeahRose[8] + "</h3>").delay(33000).fadeIn(500).delay(7000).fadeOut(500);
-      $("#lr-syn10__index").html("<h1>" + synopsisLeahRose[9] + "</h1>").delay(37000).fadeIn(500).delay(3000).fadeOut(500);
+     
+      $("#lr-syn1__movie").html(synopsisLeahRose[0]).delay(1000).fadeIn(500).delay(4000).fadeOut(500);
+      $("#lr-syn2__movie").html(synopsisLeahRose[1]).delay(2500).fadeIn(1000).delay(2000).fadeOut(500);
+      $("#lr-syn3__movie").html(synopsisLeahRose[2]).delay(10000).fadeIn(500).delay(20000).fadeOut(500);
+      $("#lr-syn4__movie").html(synopsisLeahRose[3]).delay(13000).fadeIn(500).delay(17000).fadeOut(500);
+      $("#lr-syn5__movie").html(synopsisLeahRose[4]).delay(16000).fadeIn(500).delay(14000).fadeOut(500);
+      $("#lr-syn6__movie").html(synopsisLeahRose[5]).delay(19000).fadeIn(500).delay(11000).fadeOut(500);
+      $("#lr-syn7__movie").html(synopsisLeahRose[6]).delay(22000).fadeIn(500).delay(8000).fadeOut(500);
+      $("#lr-syn8__movie").html(synopsisLeahRose[7]).delay(25000).fadeIn(500).delay(5000).fadeOut(500);
+      $("#lr-syn9__movie").html(synopsisLeahRose[8]).delay(33000).fadeIn(500).delay(7000).fadeOut(500);
+      $("#lr-syn10__movie").html(synopsisLeahRose[9]).delay(37000).fadeIn(500).delay(3000).fadeOut(500);
          
 
-      console.log("it's paramount")
-      // return;                                         // return to stop function?
+      console.log("roll credits!")
+      // return;    
+    //   stop();                                     // return to stop function?
   }
 
+//   const picturePause = function(e)   {
+//       synopsisLeahRose.pause();
+//   }
 
-  stop();
 
-
-$("#play-btn").on("click", function() {
- soundPlay(openCredits);
-});
-
-$("#pause-btn").on("click", function() {
- soundPause(openCredits);
-});
-
-$("#pp-btn").on("click", function() {
- soundPP(openCredits);
-});
+//   stop();
 
 };
 
 
 
 
-window.onload = start;
+
 
 
 /* MAIN PAGE */  
 
 // from bottom index, brings us to Leah Rose trailer and plays trailer theme //
 const movieLeahRose = $("#leah-eliz")[0];
-$("#lr-play-symbol__index").on("click", function()   {
+$("#lr-play-symbol__movie").on("click", function()   {
   movieLeahRose.play();
 });
 
@@ -121,7 +119,7 @@ $("#lr-play-symbol__index").on("click", function()   {
 
 
 
-
+window.onload = start;
 
 });
 
