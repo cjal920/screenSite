@@ -8,14 +8,16 @@ body    {
 
 
 .buttons__movie {
-    padding: 20px;
+    padding: 40px;
 }
 
 #play-btn__movie,
 #pause-btn__movie    {
     background-color: #000;
     border-color: transparent; 
+    outline: none;
 }
+
 
 /* 1em = 16px */
 
@@ -33,7 +35,7 @@ body    {
   }
 
 #pp-btn__movie    {
-    
+
 }
 
 .pause-symbol__movie {
@@ -41,6 +43,7 @@ body    {
     -moz-box-sizing:border-box;
     -webkit-box-sizing:border-box;
     box-sizing:border-box; */
+    outline-style: none;
     margin-left:16px;
     width: 56px;
     height: 80px;
